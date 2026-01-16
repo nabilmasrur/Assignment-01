@@ -34,6 +34,79 @@ nav{
     padding: 12.5px 16px;
     border-radius: 4px;
     font-size: 16px;
-    font-weight: 600;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.banner_section{
+    align-items: center;
+    background-image: url(../assets/hero-bg.png),linear-gradient(rgba(0, 0, 0, 0.5));
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 674px;
+    padding: 115.5px 120px 179.5px 120px;
+}
+.contant{
+    max-width: 1360px;
+    
+     justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+    color: #ffffff;
+    
+}
+.early_access{
+    background-color: #ffffff;
+    max-width: 229px;
+    margin: 0 auto;
+    padding: 8px 12px;
+    font-size: 16px;
+    color: #469165;
+    border-radius: 20px;
+    margin-bottom: 16px;
+}
+.dot-container {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+}
+.dot {
+    width: 6px;
+    height: 6px;
+    background-color: #469165; 
+    border-radius: 50%;
+    box-shadow: 0 0 0 2px #72b98bc1, 0 0 0 4px #bde9cc;
+}
+.contant h1{
+    font-size: 72px;
+    font-weight: bold;
+    margin-bottom: 16px;
+    
+}
+.contant .c{
+    color: #30B868;
+}
+.contant p{
+    font-size: 24px;
+    margin-bottom: 32px;
+    color: #ffffff;
+    font-weight: 300;
+    
+}
+.contant .btn_section {
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+}
+
+.contant .btn_section .see_how_btn{
+    background-color: transparent;
+    color: #FFFFFF;
+    border: 1px solid white;
+    padding: 12.5px 16px;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 500;
     cursor: pointer;
 }
